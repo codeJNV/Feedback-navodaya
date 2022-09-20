@@ -1,0 +1,100 @@
+body{
+	background: url('dashboard_bg.jpg') fixed;
+	height: 2000px;
+	
+}
+
+#posttable{
+	width: 713px;
+	position: relative;
+    top: 87px;
+    left: 300px;
+    background: wheat
+
+}
+#table1{
+	width: 713px;
+}
+
+
+
+header{
+	position: fixed;
+	z-index: 10;
+}
+#logout{
+
+    position: fixed;
+    background-color: #4CAF50;
+    left: 1285px;
+    border: solid #380707 1px;
+    border-radius: 6px;
+    top: 50px;
+}
+
+#navigation {
+    background-color: rgb(59, 58, 58);
+    height: 49px;
+    color: white;
+    margin: 0px;
+    z-index: 9;
+    width: 100vw;
+}
+
+#logo {
+    background: url('logo.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 30px;
+    z-index: 10;
+    position: relative;
+    top: 40px;
+    left: 500px;
+    width: 317px;
+    text-align: center;
+
+}
+
+.nav {
+    margin: 12px;
+    font-size: 16px;
+    position: relative;
+    top: 14px;
+    text-transform: uppercase;
+}
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+
+#addpost{
+	position: relative;
+    top: 114px;
+    width: 177px;
+    border: solid azure;
+    left: 47px;
+    border-radius: 11px
+
+}
+
+#newpost{
+	width: 177px;
+	height: 47px;
+	border-radius: 10px;
+}
