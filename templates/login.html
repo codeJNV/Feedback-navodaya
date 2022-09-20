@@ -1,0 +1,22 @@
+<html>
+  <link rel="stylesheet" href="{{url_for('static',filename='login.css')}}">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+  <body>
+
+    
+
+
+    <div id="loginform"> 
+      <form action="/login" method="post" id='login'>
+        <input type="text" name="uname" placeholder="username" class="textbox"> <br>
+        <input type="password" name="pass" placeholder="enter password here" class="textbox"> <br>
+        <label for="submit"><button type="submit" id="submit"></button>
+        <div id="submittext">SUBMIT</div> </label>
+      </form>
+      </div>
+  </body>
+</html>
